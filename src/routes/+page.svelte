@@ -1,11 +1,7 @@
 <script lang="ts">
   import { LightSwitch } from "@skeletonlabs/skeleton";
-  // import FilterButton from './filterButton.svelte';
-  import FilterBtn from "./filterbtn.svelte";
-  // import { PopupSettings } from '@skeletonlabs/skeleton';
-
-  import { clickOutside } from "./clickOutside";
-  import Popup from "./popupnew.svelte";
+  import FilterBtn from "../components/filterbtn.svelte";
+  import Popup from "../components/popupnew.svelte";
   import { popup } from "@skeletonlabs/skeleton";
   import type { PopupSettings } from "@skeletonlabs/skeleton";
   const tablePopup: PopupSettings = {
