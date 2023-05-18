@@ -19,8 +19,6 @@
   export let title: string = "Placeholder";
   export let data: Array<any> = [];
 
-  import { SlideToggle } from "@skeletonlabs/skeleton";
-
   let filterPopup = {
     event: "click",
     target: target,
